@@ -8,6 +8,10 @@
 </head>
 <body>
     <h1>BLE OrderDevice Web</h1>
+    <div class="BLEbuttons"><button id="connectBleButton">Connect to BLE Device</button>
+        <button id="disconnectBleButton">Disconnect BLE Device</button>
+        <p>BLE state: <strong><span id="bleState" style="color:#d13a30;">Disconnected</span></strong></p>
+        </div>
     <div class="select-container">
         <div class="select-box">
             <p>Select Guest</p>
@@ -48,6 +52,11 @@
     </ul>
 
     <button id="submitAll">submitAll</button>
+    <div class="linkSection">
+        <p>
+            <a href="view_esp.html">Ansicht ESP32</a>
+        </p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
