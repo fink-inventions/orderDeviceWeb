@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLE OrderDevice Web</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>BLE OrderDevice Web</h1>
+    <div class="select-container">
+        <div class="select-box">
+            <p>Select Guest</p>
+            <select id="guestSelect">
+                <option>Andi</option>
+                <option>Chris</option>
+                <option>Judith</option>
+                <option>Kai</option>
+                <option>Lisa</option>
+                <option>Marie</option>
+                <option>Markus</option>
+                <option>Robsn</option>
+                <option>Wulfn</option>
+            </select>
+            <input type="text" id="selectedGuest" placeholder="selectedGuest">
+        </div>
+
+        <div class="select-box">
+            <p>Select Drink</p>
+            <select id="drinkSelect">
+                <option>Helles</option>
+                <option>Weizen</option>
+                <option>Mass</option>
+                <option>Spezi</option>
+                <option>Wasser</option>
+                <option>Weinschorle</option>
+            </select>
+            <input type="text" id="selectedDrink" placeholder="selectedDrink">
+        </div>
+    </div>
+
+    <button id="orderButton">order</button>
+
+    <ul id="orderList">
+        <li>
+            <h2>laufende Bestellungen</h2>
+        </li>
+    </ul>
+
+    <button id="submitAll">submitAll</button>
+    <script src="script.js"></script>
+</body>
+</html>
